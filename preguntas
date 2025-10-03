@@ -1,0 +1,26 @@
+a. ¿De qué trata el dataset utilizado?
+El dataset contiene información sobre películas y series disponibles en la plataforma Netflix. Incluye columnas como el título, tipo (película o serie), director, país de producción, año de estreno, fecha en que se añadió a Netflix, duración y categorías de género.
+
+b. ¿Qué información permite ver el resumen estadístico (describe())?
+El resumen muestra estadísticas básicas de las columnas numéricas y un conteo de valores para las categóricas. Por ejemplo:
+
+En columnas numéricas como release_year, se observan valores mínimos, máximos, media y mediana de los estrenos.
+
+En columnas categóricas como type o country, describe() muestra cuántos valores hay, cuántos son únicos y cuál es el valor más frecuente (moda).
+Esto ayuda a entender rápidamente la distribución de los datos.
+
+c. ¿Qué cambios o tendencias se detectan en la información del dataset?
+Se detecta una fuerte concentración de estrenos después del año 2010. Esto refleja la estrategia de Netflix de aumentar su catálogo original y licenciado en la última década. También se observa un crecimiento en la diversidad de países que producen contenido.
+
+d. ¿Qué categorías sobresalen en la comparación y por qué crees que será?
+La categoría Películas sobresale frente a las Series de TV, ya que representan más del 65% del catálogo. Esto probablemente se debe a que producir películas es más rápido y económico en comparación con series largas, lo que permite a Netflix ampliar más rápido su catálogo.
+
+e. ¿Qué diferencias se observan entre los primeros y últimos registros?
+Los primeros registros (head) muestran títulos recientes añadidos al catálogo, mientras que los últimos (tail) incluyen títulos más antiguos o incluso con datos incompletos (algunos sin país o director definido). Esto refleja tanto el crecimiento reciente como la calidad variable de los metadatos históricos.
+
+f. ¿Qué aportan las medidas estadísticas al análisis del dataset?
+
+Media y mediana de release_year ayudan a ubicar en qué periodo se concentra la mayoría de estrenos.
+
+Desviación estándar indica la variabilidad: si es baja, los estrenos se concentran en pocos años; si es alta, los estrenos están más repartidos.
+Estas medidas permiten comparar tendencias y detectar periodos de mayor producción.
